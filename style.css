@@ -1,0 +1,55 @@
+* {
+  background-color: rgb(207, 241, 239);
+}
+body {
+  height: 550px;
+  width: 350px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 5px 5px 1px;
+}
+img {
+  height: 220px;
+  width: 350px;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+h2 {
+  font-weight: bolder;
+  background-color: white;
+  margin-left: 15px;
+}
+.para {
+  font-size: 16px;
+  background-color: white;
+  margin-left: 15px;
+  font-family: poppins, sans-serif;
+}
+.profile {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: white;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  background-color: white;
+  margin: 8px;
+}
+.user-name {
+  font-weight: bold;
+  background-color: white;
+  margin-top: 2px;
+}
+.share {
+  height: 20px;
+  width: 20px;
+  border-radius: 60px;
+  margin-left: 280px;
+  margin-bottom: 40px;
+}
