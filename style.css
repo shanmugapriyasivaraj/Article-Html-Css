@@ -1,24 +1,24 @@
-* {
-  background-color: rgb(207, 241, 239);
-}
 body {
-  height: 500px;
+  height: 570px;
   width: 350px;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 1px 5px 5px 1px;
 }
 img {
   height: 220px;
-  width: 350px;
+  width: 330px;
   background-color: white;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  object-fit: cover;
+  margin-top: 15px;
 }
 h2 {
   font-weight: bolder;
   background-color: white;
   margin-left: 15px;
+  justify-content: center;
 }
 .para {
   font-size: 16px;
@@ -44,7 +44,8 @@ h2 {
 .user-name {
   font-weight: bold;
   background-color: white;
-  margin-top: 2px;
+  margin-top: 20px;
+  justify-content: center;
 }
 .share {
   height: 20px;
